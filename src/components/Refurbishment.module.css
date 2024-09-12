@@ -1,7 +1,7 @@
 .main{
   display: flex;
   height: 400px;
-  /* overflow: hidden; */
+   
 }
 .main img{
   border-radius: 20px;

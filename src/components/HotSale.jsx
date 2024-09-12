@@ -18,7 +18,7 @@ const HotSale = () => (
         className={styles.img2}
       />
 
-      div
+    
       <img
         src={imageSrc3}
         alt="Descriptive text about the image"
