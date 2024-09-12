@@ -4,55 +4,28 @@ import imageSrc2 from "../assets/HotSaleTwo.jpg";
 import imageSrc3 from "../assets/HotSaleThree.png";
 import styles from "./HotSale.module.css";
 
-const HotSale = () => (
-  <>
-    <div className={styles.main}>
-      <img
-        src={imageSrc1}
-        alt="Descriptive text about the image"
-        className={styles.img1}
-      />
-      <img
-        src={imageSrc2}
-        alt="Descriptive text about the image"
-        className={styles.img2}
-      />
 
-    
-      <img
-        src={imageSrc3}
-        alt="Descriptive text about the image"
-        className={styles.img3}
-      />
-
+const HotSaleProducts = () => {
+  return (
+    <div className={styles.container}>
+      <h2 className={styles.heading}>Hot Sale Products</h2>
+      <div className={styles.products}>
+        <div className={styles.product}>
+          <img src={imageSrc1} alt="HOWO 6x4 Dump Truck" />
+          <p className={styles.caption}>HOWO 6X4 DUMP TRUCK</p>
+        </div>
+        <div className={styles.product}>
+          <img src={imageSrc2} alt="HOWO 8x4 Dump Truck" />
+          <p className={styles.caption}>HOWO 8X4 DUMP TRUCK</p>
+        </div>
+        <div className={styles.product}>
+          <img src={imageSrc3} alt="HOWO 8x4 Chassis Truck" />
+          <p className={styles.caption}>HOWO 8X4 CHASSIS TRUCK</p>
+        </div>
+      </div>
     </div>
-  </>
-);
+  );
+};
 
-export default HotSale;
-// import React from 'react';
-// import styles from"./HotSale.module.css"
+export default HotSaleProducts;
 
-// function HotSaleProducts() {
-//   return (
-//     <div className={styles.hot-sale-products}>
-//       <h2>HOT'S SALE PRODUCTS</h2>
-//       <div className={styles.product-grid}>
-//         <div className={styles.product}>
-//           <img src="path/to/howo-8x4-dump-truck.jpg" alt="HOWO 8X4 Dump Truck" />
-//           <h3>HOWO 8X4 DUMP TRUCK</h3>
-//         </div>
-//         <div className={styles.product}>
-//           <img src="path/to/howo-6x4-dump-truck.jpg" alt="HOWO 6X4 Dump Truck" />
-//           <h3>HOWO 6X4 DUMP TRUCK</h3>
-//         </div>
-//         <div className={styles.product}>
-//           <img src="path/to/howo-6x4-tractor-truck.jpg" alt="HOWO 6X4 Tractor Truck" />
-//           <h3>HOWO 6X4 TRACTOR TRUCK</h3>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default HotSaleProducts;

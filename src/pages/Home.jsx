@@ -14,6 +14,7 @@ function Home() {
   buttonText="Contact Us"  
 />
 <Refurbishment/>
+
 <HotSaleProducts/>
     </div>
     </>
