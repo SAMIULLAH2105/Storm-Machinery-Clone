@@ -1,7 +1,7 @@
 import React from "react";
 import imageSrc1 from "../assets/Refurbishment-first-pic.jpg";
 import imageSrc2 from "../assets/Refurbishment-second-pic.jpg";
-import styles from "./Refurbishment.module.css";
+import styles from "../styles/Refurbishment.module.css";
 
 const Refurbishment = () => (
   <>

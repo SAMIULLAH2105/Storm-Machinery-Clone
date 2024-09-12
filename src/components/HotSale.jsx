@@ -2,7 +2,7 @@ import React from "react";
 import imageSrc1 from "../assets/HotSaleOne.jpg";
 import imageSrc2 from "../assets/HotSaleTwo.jpg";
 import imageSrc3 from "../assets/HotSaleThree.png";
-import styles from "./HotSale.module.css";
+import styles from "../styles/HotSale.module.css";
 
 
 const HotSaleProducts = () => {
