@@ -8,7 +8,9 @@ import Services from './pages/Services';
 import FAQ from './pages/FAQ';
 import About from './pages/About';
 import Product from './pages/Product';
-import ProductDetail from './Components/ProductDetail'; // Import the new ProductDetail component
+import ProductDetail from './Components/ProductDetail'; 
+
+// Import the new ProductDetail component
 
 const router = createBrowserRouter([
   {

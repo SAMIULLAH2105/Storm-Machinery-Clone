@@ -1,6 +1,15 @@
 import React from 'react';
 import Description from '../components/Description';
 import AdvantagesSection from '../components/AdvantagesSection';
+import Slider from '../components/Slider';
+
+const middlesSction={
+  display:"flex",
+  flexDirection:"column",
+  alignItem:"center",
+  padding:"200px"
+  
+}
 function About() {
   return (
     <>
@@ -13,7 +22,11 @@ function About() {
   />
 
     </div>
- <AdvantagesSection/>
+    <div style={middlesSction}>
+    <AdvantagesSection/>
+    <Slider/>
+    </div>
+
  </>
   );
 }
