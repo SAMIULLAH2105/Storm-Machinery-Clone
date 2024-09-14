@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import FAQ from './pages/FAQ';
 import About from './pages/About';
 import Product from './pages/Product';
+import ProductDetail from './Components/ProductDetail'; // Import the new ProductDetail component
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "product", // Product route
         element: <Product />,
+      },
+      {
+        path: "product/:productId", // Dynamic product detail route
+        element: <ProductDetail />, // The ProductDetail component handles this route
       },
       {
         path: "contact", // Contact route
