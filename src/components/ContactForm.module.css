@@ -1,0 +1,29 @@
+.inquiry {
+  max-width: 400px;
+  background-color: #e8f0fe;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.inquiry label {
+  font-size: 16px;
+  color: #333;
+}
+
+.inquiry input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 2px solid #007BFF;
+  border-radius: 4px;
+}
+
+.inquiry button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
