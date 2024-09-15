@@ -1,8 +1,13 @@
+.mainHead{
+  margin:auto;
+  color:#0a0a0a;
+}
 .inquiry {
-  max-width: 400px;
-  background-color: #e8f0fe;
+  max-width: 450px;
+  background-color: #426cb5;
   padding: 20px;
   border-radius: 8px;
+  margin: 20px auto;
 }
 
 .inquiry label {
@@ -13,7 +18,7 @@
 .inquiry input {
   width: 100%;
   padding: 8px;
-  margin: 10px 0;
+  margin: 10px 0px;
   border: 2px solid #007BFF;
   border-radius: 4px;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { products } from './ProductData';
 import styles from './ProductDetail.module.css'
+import FooterTop from './FooterTop';
 
 const ProductDetail = () => {
   const { productId } = useParams();
@@ -13,9 +14,7 @@ const ProductDetail = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.searchBar}> {/* Search bar at the top */}
-        <input type="text" placeholder="Search..." />
-      </div>
+      
       <div className={styles.productDetails}>
         <div className={styles.images}>
           <img src={product.image1} alt={product.name} className={styles.mainImage} />
@@ -32,7 +31,9 @@ const ProductDetail = () => {
           </ul>
         </div>
       </div>
+      <FooterTop/>
     </div>
+    
   );
 };
 

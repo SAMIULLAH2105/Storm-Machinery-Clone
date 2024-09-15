@@ -1,3 +1,6 @@
+body{
+  background-color: #cccccc8c;
+}
 .container {
   font-family: Arial, sans-serif;
 }
@@ -16,8 +19,11 @@
 }
 
 .productDetails {
+  /* background-color: #ccc; */
+  background-color:white;
+  margin: 100px 130px;
   display: flex;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .images {
@@ -27,11 +33,15 @@
 .mainImage, .hoverImage {
   width: 100%;
   height: auto;
+  margin: 15px;
 }
 
 .info {
   flex: 2;
   padding-left: 20px;
+}
+.info h1{
+  font-size: 50px;
 }
 
 .freeShipping {

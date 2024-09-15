@@ -41,7 +41,10 @@ function ContactForm() {
   
 
   return (
+    <>
+    <h2 className={styles.mainHead}>PLEASE CONTACT US</h2>
     <form onSubmit={handleSubmit} className={styles.inquiry}>
+      
       <label htmlFor="name">Your Name *</label>
       <input
         type="text"
@@ -81,7 +84,7 @@ function ContactForm() {
       />
 
       <button type="submit">Send Message</button>
-    </form>
+    </form></>
   );
 }
 

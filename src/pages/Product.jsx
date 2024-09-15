@@ -1,5 +1,6 @@
 import React from 'react';
 import CardComponent from '../components/CardComponent';
+import FooterTop from '../components/FooterTop';
 
 function Product() {
   return (
@@ -9,6 +10,7 @@ function Product() {
       <p>Explore our wide range of trucks for export.</p>
     </div>
     <CardComponent/>
+    <FooterTop/>
     </>
 
   );
