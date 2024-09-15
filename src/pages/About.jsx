@@ -29,7 +29,7 @@ function About() {
     
 
     </div>
-    <Professionalism/>
+    <Professionalism imageSrc="src/assets/products/bigredTruck.jpg"/>
 
  </>
   );
