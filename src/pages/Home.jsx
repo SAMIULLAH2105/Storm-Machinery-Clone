@@ -1,8 +1,10 @@
 import React from 'react';
 import Description from '../components/Description';
 import Refurbishment from '../components/Refurbishment';
-// import HotSaleProduct from '../components/HotSale';
+import AboutTruckTransportation from '../components/AboutTransportation';
+import FooterTop from '../components/FooterTop';
 import HotSaleProducts from '../components/HotSale';
+import ContactUs from '../components/ContactUs';
 function Home() {
   return (<>
     <div className="home">
@@ -16,6 +18,9 @@ function Home() {
 <Refurbishment/>
 
 <HotSaleProducts/>
+<AboutTruckTransportation/>
+<ContactUs/>
+<FooterTop/>
     </div>
     </>
   );
