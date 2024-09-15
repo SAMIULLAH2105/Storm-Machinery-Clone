@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className={styles.navbar}>
       <div className={styles.navbarLogo}>
         <div className={styles.logoPlaceholder}>
-          <img src="src/assets/smLogo.png" alt="Logo" />
+          <img src="../src/assets/smLogo.png" alt="Logo" />
         </div>
         <h1 className={styles.navbarTitle}>TRUCK EXPORT</h1>
       </div>
