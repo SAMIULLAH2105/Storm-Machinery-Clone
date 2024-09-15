@@ -4,6 +4,7 @@ import Refurbishment from '../components/Refurbishment';
 import AboutTruckTransportation from '../components/AboutTransportation';
 import FooterTop from '../components/FooterTop';
 import HotSaleProducts from '../components/HotSale';
+import ContactUs from '../components/ContactUs';
 function Home() {
   return (<>
     <div className="home">
@@ -18,6 +19,7 @@ function Home() {
 
 <HotSaleProducts/>
 <AboutTruckTransportation/>
+<ContactUs/>
 <FooterTop/>
     </div>
     </>
