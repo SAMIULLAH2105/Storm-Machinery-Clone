@@ -2,6 +2,7 @@ import React from 'react';
 import Description from '../components/Description';
 import AdvantagesSection from '../components/AdvantagesSection';
 import Slider from '../components/Slider';
+import Professionalism from '../components/Professionalism'
 
 const middlesSction={
   display:"flex",
@@ -25,7 +26,10 @@ function About() {
     <div style={middlesSction}>
     <AdvantagesSection/>
     <Slider/>
+    
+
     </div>
+    <Professionalism/>
 
  </>
   );
